@@ -119,7 +119,7 @@ The project includes `render.yaml` configuration for Render deployment.
 | Variable | Description |
 |----------|-------------|
 | `VITE_API_BASE_URL` | Primary API base URL |
-| `VITE_API_BASE_URL_USER` | User API endpoint (default: https://sbal-system.onrender.com/api) |
+| `VITE_API_BASE_URL_USER` | User API endpoint (your-api-url) |
 
 ## 🤝 Contributing
 
