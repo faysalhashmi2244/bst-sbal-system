@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: sbal-system-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: PORT
+        value: 10000
+    plan: free

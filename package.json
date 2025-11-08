@@ -1,0 +1,52 @@
+{
+  "name": "sbal-system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node backend/server.js",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@reown/appkit": "^1.7.5",
+    "@reown/appkit-adapter-wagmi": "^1.7.5",
+    "@tanstack/react-query": "^5.76.1",
+    "axios": "^1.10.0",
+    "i18next": "^25.1.2",
+    "i18next-browser-languagedetector": "^8.1.0",
+    "i18next-http-backend": "^3.0.2",
+    "lucide-react": "^0.510.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "react-i18next": "^15.5.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.2",
+    "react-router-hash-link": "^2.4.3",
+    "viem": "^2.29.3",
+    "wagmi": "^2.15.3",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "framer-motion": "^12.10.0",
+    "globals": "^16.0.0",
+    "husky": "^9.0.1",
+    "postcss": "^8.4.35",
+    "postcss-import": "^16.1.0",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^3.4.1",
+    "vite": "^6.3.5"
+  }
+}

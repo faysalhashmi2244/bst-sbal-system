@@ -1,0 +1,65 @@
+[
+  {
+    "description": "Register first user (admin/root)",
+    "payload": {
+      "username": "admin",
+      "sponsorId": 0,
+      "walletAddress": "0x1234567890123456789012345678901234567890"
+    }
+  },
+  {
+    "description": "Register user with sponsorId",
+    "payload": {
+      "username": "user1",
+      "sponsorId": 0,
+      "walletAddress": "0x2345678901234567890123456789012345678901"
+    }
+  },
+  {
+    "description": "Register user with sponsorAddress",
+    "payload": {
+      "username": "user2",
+      "sponsorAddress": "0x1234567890123456789012345678901234567890",
+      "walletAddress": "0x3456789012345678901234567890123456789012"
+    }
+  },
+  {
+    "description": "Register user with default sponsor",
+    "payload": {
+      "username": "user3",
+      "walletAddress": "0x4567890123456789012345678901234567890123"
+    }
+  },
+  {
+    "description": "Register user with invalid sponsorId",
+    "payload": {
+      "username": "user4",
+      "sponsorId": 9999,
+      "walletAddress": "0x5678901234567890123456789012345678901234"
+    }
+  },
+  {
+    "description": "Register user with invalid sponsorAddress",
+    "payload": {
+      "username": "user5",
+      "sponsorAddress": "0x9999999999999999999999999999999999999999",
+      "walletAddress": "0x6789012345678901234567890123456789012345"
+    }
+  },
+  {
+    "description": "Register user with duplicate username",
+    "payload": {
+      "username": "admin",
+      "sponsorId": 0,
+      "walletAddress": "0x7890123456789012345678901234567890123456"
+    }
+  },
+  {
+    "description": "Register user with duplicate wallet address",
+    "payload": {
+      "username": "user6",
+      "sponsorId": 0,
+      "walletAddress": "0x1234567890123456789012345678901234567890"
+    }
+  }
+]

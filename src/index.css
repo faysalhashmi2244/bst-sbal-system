@@ -1,0 +1,120 @@
+/* Remove old font imports */
+/* New fonts are already included in index.html */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cyber-black text-white font-future overflow-x-hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-cyber;
+  }
+}
+/* Dark/Light Theme Support */
+/* Scrollbar styling - Dark Mode */
+::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0.8) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 170, 85, 0.5) !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 170, 85, 0.8) !important;
+}
+
+/*  hide arrows on number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  opacity: 0;
+}
+@layer components {
+  .neon-border {
+    @apply border border-green1 shadow-green1;
+  }
+
+  .neon-border-purple {
+    @apply border border-green1 shadow-green1;
+  }
+
+  .neon-border-pink {
+    @apply border border-green1 shadow-green1;
+  }
+
+  .neon-border-green {
+    @apply border border-green1 shadow-green1;
+  }
+
+  .cyber-button {
+    @apply bg-cyber-dark border border-green1 px-6 py-2 font-cyber uppercase tracking-wider text-green1 shadow-green1 transition-all duration-300 hover:bg-green1 hover:text-cyber-black hover:shadow-green1;
+  }
+
+  .cyber-button-light {
+    @apply bg-cyber-light/70 border border-green1 px-6 py-2 font-cyber uppercase tracking-wider text-green1 shadow-green1 transition-all duration-300 hover:bg-green1 hover:text-cyber-white hover:shadow-green1;
+  }
+
+  .cyber-card {
+    @apply relative bg-cyber-dark/80 backdrop-blur-md border border-green1 p-6 shadow-green1 transition-all duration-300 hover:shadow-green1;
+  }
+
+  .cyber-input {
+    @apply bg-cyber-dark/50 border border-green1 p-3 font-mono text-green1 outline-none focus:shadow-green1 transition-all duration-300;
+  }
+
+  .particle-container {
+    @apply fixed inset-0 -z-10 pointer-events-none;
+  }
+
+  .cyber-grid-bg {
+    @apply fixed inset-0 -z-20 bg-cyber-grid bg-cyber-grid-size pointer-events-none opacity-20;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-gradient-shift {
+  animation: gradient-shift 8s ease infinite;
+  background-size: 200% 200%;
+}
+
+.animate-glitch {
+  animation: glitch 1s linear infinite;
+}
+
+.animate-slide-in {
+  animation: slide-in 1s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}

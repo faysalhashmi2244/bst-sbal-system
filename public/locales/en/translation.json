@@ -1,0 +1,306 @@
+{
+  "app": {
+    "title": "BST SBAL SYSTEM",
+    "subtitle": "The Future of Passive Income",
+    "loading": "Loading..."
+  },
+  "common": {
+    "error": "Transaction failed",
+    "confirming": "Confirming transaction...",
+    "confirmed": "Transaction confirmed successfully!",
+    "pending": "Transaction pending...",
+    "active": "Active",
+    "inactive": "Inactive",
+    "referral": "Referral",
+    "referralModalTitle": "Referral",
+    "referralModalDescription": "Enter your referral address",
+    "referralModalButton": "Save Referral",
+    "referralModalClose": "Close",
+    "referralModalInputPlaceholder": "Enter referral address",
+    "referralModalInvalidAddress": "Invalid address",
+    "referralModalAddressSaved": "Referral address saved successfully",
+    "referralModalAddressNotSaved": "Failed to save referral address",
+    "referralModalAddressNotSavedError": "Failed to save referral address",
+    "referralModalAddressNotSavedErrorDescription": "Please try again later",
+    "referralModalAddressNotSavedErrorButton": "OK",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "header": {
+    "home": "Home",
+    "features": "Features",
+    "packages": "Packages",
+    "income": "Income Streams",
+    "withdrawal": "Withdrawal",
+    "timeline": "Timeline",
+    "why": "Why SBAL",
+    "team": "Team"
+  },
+  "hero": {
+    "title": "Revolutionary Blockchain Technology",
+    "subtitle": "Innovative Passive Income Solution",
+    "description": "SBAL SYSTEM combines cutting-edge blockchain technology with powerful financial innovations to deliver sustainable passive income streams.",
+    "button": "Get Started",
+    "explore": "Explore Features"
+  },
+  "features": {
+    "title": "Our Features",
+    "subtitle": "What Makes SBAL Different",
+    "card1": {
+      "title": "Instant Earnings",
+      "description": "No waiting periods - start earning passive income immediately after joining."
+    },
+    "card2": {
+      "title": "Community Powered",
+      "description": "Built by and for the community, with transparent operations."
+    },
+    "card3": {
+      "title": "Real Utility",
+      "description": "Backed by real-world applications and blockchain technology."
+    },
+    "card4": {
+      "title": "Multiple Income Streams",
+      "description": "Diversify your earnings with various income sources."
+    }
+  },
+  "packages": {
+    "title": "Investment Packages",
+    "levelsOf": "Levels of BST Token Rewards",
+    "subtitle": "Choose the perfect plan for your financial goals",
+    "tokens": "Tokens",
+    "value": "Value",
+    "multiplier": "Reward Multiplier",
+    "level": "Level",
+    "name": "Package",
+    "price": "Price",
+    "availableRewards": "Available Rewards",
+    "boosterReward": "Booster Reward",
+    "roi": "ROI",
+    "duration": "Duration",
+    "durationNote": "All packages have a 20-day duration for certain benefits, but your income potential continues indefinitely.",
+    "recommended": "RECOMMENDED",
+    "premiumTitle": "Premium Packages",
+    "instantReward": "Instant Booster Reward",
+    "instantRewardSubtitle": "Your fast-track to infinite income. No expiry. No rebuy. Just results. Instant reward.",
+    "referral1": "Buy Ignite → Refer 1 person",
+    "referral10": "Refer 10 people",
+    "referral100": "Refer 100 people",
+    "unlocked": "unlocked",
+    "activateNow": "Activate Now",
+    "approve": "Approve",
+    "useRewards": "Use Rewards",
+    "useRewardsDescription": "Use your rewards to activate your package",
+    "approveDescription": "Approve the contract to activate your package",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "referralAddress": "Referral Address",
+    "referralInfo": "Referral Info",
+    "enterReferral": "Enter Referral",
+    "referralModalTitle": "Referral",
+    "referralModalDescription": "Enter your referral address",
+    "referralModalButton": "Save Referral",
+    "referralModalClose": "Close",
+    "referralModalInputPlaceholder": "Enter referral address",
+    "referralModalInvalidAddress": "Invalid address",
+    "referralModalAddressSaved": "Referral address saved successfully",
+    "referralModalAddressNotSaved": "Failed to save referral address",
+    "referralModalAddressNotSavedError": "Failed to save referral address",
+    "referralModalAddressNotSavedErrorDescription": "Please try again later",
+    "referralModalAddressNotSavedErrorButton": "OK",
+    "basic": {
+      "title": "Ignite",
+      "price": "$100",
+      "description": "Perfect for beginners"
+    },
+    "standard": {
+      "title": "Blaze",
+      "price": "$500",
+      "description": "Most popular choice"
+    },
+    "premium": {
+      "title": "Surge",
+      "price": "$1000",
+      "description": "For serious investors"
+    }
+  },
+  "income": {
+    "title": "Income Streams",
+    "subtitle": "Multiple ways to earn passive income",
+    "stream1": "Stream 1️⃣",
+    "stream1Title": "5% Activation Bonus",
+    "stream1Description": "Rewarded instantly on every activation when new members join through your referral link.",
+    "stream1Detail": "The Activation Bonus is an instant reward you receive when someone joins SBAL through your referral. This is a direct 5% commission paid in BST coin immediately upon activation.",
+    "stream1Example": "If someone purchases a $100 Ignite package through your referral, you instantly receive $5 worth of BST coin.",
+    "stream1Item1": "Paid instantly with no delays",
+    "stream1Item2": "Calculated as 5% of the package price",
+    "stream1Item3": "No limit to how many activation bonuses you can earn",
+    "stream1Item4": "Paid in BST coin directly to your wallet",
+    "stream2": "Stream 2️⃣",
+    "stream2Title": "Booster Income",
+    "stream2Description": "Instant payout with just 1 referral, with the reward amount depending on your package level.",
+    "stream2Detail": "The Booster Reward is an instant payout you receive when you refer just 1 person to buy any Smart Base package. The reward amount depends on your package level.",
+    "stream3": "Stream 3️⃣",
+    "stream4": "Stream 4️⃣",
+    "viewDetails": "View Details",
+    "example": "Example",
+    "close": "Close"
+  },
+  "withdrawal": {
+    "title": "Withdrawal Process",
+    "subtitle": "Simple and fast withdrawals",
+    "step1": "Request withdrawal",
+    "step2": "Verification process",
+    "step3": "Instant processing",
+    "step4": "Funds delivered",
+    "withdrawable": "Withdrawable Earnings",
+    "autoLocked": "Auto-Locked for Upgrade",
+    "activationBonus": "Activation Bonus",
+    "fee": "Withdrawal Fee",
+    "walletToWallet": "Wallet-to-Wallet Transfer",
+    "actionColumn": "Action",
+    "allocationColumn": "Allocation",
+    "note": "Note",
+    "noteText": "All withdrawals are processed within 24 hours, often much faster. BST coin can be exchanged on-platform or transferred to external wallets.",
+    "automaticUpgrades": "Automatic Upgrades",
+    "upgradesText": "20% of all earnings are automatically locked for your next package upgrade, helping you seamlessly climb the income ladder.",
+    "minimalFees": "Minimal Fees",
+    "feesText": "Only 9% fee on withdrawals, used to support platform liquidity. Direct wallet transfers have zero fees.",
+    "growWithout": "Grow without manual rebuy",
+    "keepMore": "Keep more of your earnings"
+  },
+  "timeline": {
+    "title": "Works",
+    "titleHighlight": "How It",
+    "subtitle": "SBAL = Simple Action. Big Leverage.",
+    "step1": {
+      "title": "Buy Once",
+      "description": "Make a one-time purchase of any Smart Base package to activate your SBAL income system."
+    },
+    "step2": {
+      "title": "Refer",
+      "description": "Share your SBAL opportunity with others to unlock booster rewards and referral income."
+    },
+    "step3": {
+      "title": "Earn Forever",
+      "description": "Enjoy continuous income through multiple streams without any rebuy requirements."
+    },
+    "tagline": "One-Time Purchase. Lifetime Power. Infinite Potential.",
+    "slogan": "🛡️ Crash-Proof. Chaos-Free. Community-Led.",
+    "sloganSubtitle": "Engineered for sustainability, not speculation.",
+    "noStaking": "No staking",
+    "noLocking": "No token locking",
+    "noRebuy": "No rebuy traps",
+    "yesUsers": "Only real users",
+    "yesUseCases": "Only real use cases",
+    "yesGrowth": "Only real growth",
+    "phase1": "Phase 1: Launch",
+    "phase2": "Phase 2: Community Growth",
+    "phase3": "Phase 3: Platform Expansion",
+    "phase4": "Phase 4: Global Integration"
+  },
+  "whysbal": {
+    "title": "Why Choose SBAL",
+    "titleHighlight": "Why SBAL",
+    "titleRest": "Can't Be Stopped",
+    "subtitle": "A revolutionary system designed for sustainability and real growth",
+    "feature1": {
+      "title": "No staking",
+      "description": "Simplicity & Safety"
+    },
+    "feature2": {
+      "title": "One-time activation",
+      "description": "No rebuy stress"
+    },
+    "feature3": {
+      "title": "Real buyer system",
+      "description": "Sustainable income"
+    },
+    "feature4": {
+      "title": "Team-powered income",
+      "description": "Community-driven growth"
+    },
+    "feature5": {
+      "title": "Prosperity payouts",
+      "description": "Rewards the early movers"
+    },
+    "feature6": {
+      "title": "Vault Salary",
+      "description": "Monthly crypto salary"
+    },
+    "feature7": {
+      "title": "Ascension Bonus",
+      "description": "Rewards the active players"
+    },
+    "finalTitle": "🔥 SBAL – Final Takeaway",
+    "slogan": "\"One activation. Infinite rewards. That's the SBAL way.\"",
+    "benefit1": "Smart structure",
+    "benefit2": "Real ecosystem connection",
+    "benefit3": "Instant & long-term income",
+    "benefit4": "Perfect for teams & scale",
+    "reason1": "Transparent operations",
+    "reason2": "Innovative technology",
+    "reason3": "Community-driven",
+    "reason4": "Sustainable growth model"
+  },
+  "team": {
+    "title": "Team",
+    "titleHighlight": "Visionary",
+    "subtitle": "The brilliant minds behind the SBAL SYSTEM revolution",
+    "joinCommunity": "Join Our Community",
+    "communityDescription": "Connect with our team and thousands of SBAL members worldwide. Get early access to updates, special events, and exclusive opportunities.",
+    "member1": {
+      "role": "Chief Architect",
+      "description": "Pioneering the integration of blockchain technology with real-world financial systems. Creator of the core SBAL algorithms that power our revolutionary income system.",
+      "specialty": "Cryptographic Systems Design"
+    },
+    "member2": {
+      "role": "Network Growth Strategist",
+      "description": "Specializing in community-driven growth models and network effect optimization. Elena has helped scale multiple crypto projects from concept to global adoption.",
+      "specialty": "Exponential Team Building"
+    },
+    "member3": {
+      "role": "Tokenomics Engineer",
+      "description": "Expert in designing sustainable economic models for blockchain ecosystems. Marcus ensures the SBAL system maintains perfect balance between growth and stability.",
+      "specialty": "Mathematical Modeling"
+    },
+    "member4": {
+      "role": "User Experience Director",
+      "description": "Bridging the gap between complex crypto systems and intuitive user interfaces. Olivia ensures that SBAL remains accessible to both beginners and experts alike.",
+      "specialty": "Blockchain UX Simplification"
+    }
+  },
+  "stats": {
+    "users": "Total Users",
+    "volume": "Trading Volume",
+    "chains": "Supported Chains",
+    "apy": "APY"
+  },
+  "footer": {
+    "rights": "All Rights Reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "language": {
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "direction": "ltr",
+  "userHistory": {
+    "title": "User History",
+    "subtitle": "View blockchain events and transaction history for any wallet address.",
+    "walletAddress": "Wallet Address",
+    "fromBlock": "From Block",
+    "toBlock": "To Block",
+    "fetch": "Fetch History",
+    "loading": "Loading...",
+    "results": "Results",
+    "events": "events",
+    "event": "Event",
+    "time": "Time",
+    "block": "Block",
+    "details": "Details",
+    "viewTransaction": "View Transaction",
+    "noEvents": "No events found for this address."
+  }
+}
